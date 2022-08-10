@@ -1,7 +1,7 @@
 {
-  "name": "sd-0x-project-talker-manager",
+  "name": "talkers",
   "version": "1.0.0",
-  "description": "",
+  "description": "Node project that aims training crud skills.",
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand --verbose --forceExit",
@@ -11,8 +11,8 @@
     "dev": "nodemon index.js --ignore 'talker.json'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["node", "fs", "crud", "authentication"],
+  "author": "Renato Alves de Melo",
   "license": "ISC",
   "dependencies": {
     "body-parser": "1.19.0",
